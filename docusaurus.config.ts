@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '微信开发',
+  title: '科技前沿微信开发文档库',
   tagline: '微信第三方',
   favicon: 'img/favicon.ico',
 
@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '微信开发(第三方)',
       logo: {
-        alt: 'My Site Logo',
+        alt: '微信开发(第三方)',
         src: 'img/logo.svg',
       },
       items: [
@@ -68,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '教程',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
