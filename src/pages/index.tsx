@@ -30,9 +30,8 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`${siteConfig.title}`} description="微信开发第三方文档">
+    <Layout description="微信开发第三方文档">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

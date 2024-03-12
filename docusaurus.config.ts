@@ -3,12 +3,12 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '科技前沿微信开发文档库',
-  tagline: '微信第三方',
+  title: '科技前沿微信开发文档',
+  tagline: '微信开发第三方文档',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://dev-weixin.zeabur.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
